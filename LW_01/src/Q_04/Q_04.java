@@ -4,10 +4,10 @@ import java.util.*;
 
 public class Q_04 {
     public static void main(String[] args) {
-        Date today;
+        Date date;
         SimpleDateFormat sdf;
-        today = new Date();
+        date = new Date();
         sdf = new SimpleDateFormat("dd MMMM yyyy");
-        System.out.println(sdf.format(today));
+        System.out.println(sdf.format(date));
     }
 }
